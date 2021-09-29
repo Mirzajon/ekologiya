@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.wrapper {
+  width: 100vw;
+  min-height: 100vh;
+  background-image: url(../imges/vc7.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 20px 0 100px 0;
+  object-fit: cover;
+}
+
+.wrapper .button {
+  width: 200px;
+  margin-left: auto;
+}
+
+.wrapper .button button,
+.wrapper .button a {
+  background-color: rgba(0, 0, 0, 0.4) !important;
+  color: #fff;
+  transition: all 0.5s ease;
+}
+
+.wrapper .button button:hover,
+.wrapper .button a:hover {
+  background: red !important;
+}
+
+.wrapper h1 {
+  color: #fff;
+}
+
+.nav-logo img {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.card {
+  background-color: rgba(0, 0, 0, 0.4) !important;
+  object-fit: cover;
+  padding: 20px;
+  border-radius: 10px !important;
+  transition: all 0.5s ease;
+  min-height: 230px;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.card img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  display: inline-block;
+  background-color: #fff;
+  font-size: 2rem;
+  border-radius: 50%;
+}
+
+.card h2 {
+  color: #e6e6e6;
+  font-size: 1.3rem !important;
+}
+
+.info .col-sm-6 {
+  transition: all 0.5s ease;
+}
+
+.info .col-sm-6:hover {
+  transform: scale(1.03);
+}
+
+.accordion-button {
+  opacity: 0.7;
+}
+
+.pages1 {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../imges/vc7.jpeg);
+}
+
+.accordion-item {
+  background-color: rgba(0, 0, 0, 0.4) !important;
+  color: #fff;
+}
+
+.pages2 {
+  width: 100vw;
+  min-height: 100vh;
+  padding-bottom: 100px;
+}
+
+.pages3 {
+  width: 100vw;
+  min-height: 100vh;
+  padding-bottom: 100px;
+}
+
+.pages4 {
+  width: 100vw;
+  min-height: 100vh;
+  padding-bottom: 100px;
+}
+
+.pages5 {
+  width: 100vw;
+  min-height: 100vh;
+  padding-bottom: 100px;
+}
+
+.pages5 i {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  transition: all 0.5s ease;
+}
+
+.pages5 i:hover {
+  transform: scale(1.2);
+}
+
+.pages6 {
+  width: 100vw;
+  min-height: 100vh;
+  padding-bottom: 100px;
+}
+
+.pages6 .col {
+  padding: 0 !important;
+}
+
+.pages6 .col .card {
+  padding: 8px 3px 8px 3px !important;
+  margin: 10px;
+  background-color: rgba(255, 255, 255, 0.7) !important;
+}
